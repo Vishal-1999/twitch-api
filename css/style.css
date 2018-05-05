@@ -16,28 +16,29 @@ header h2 {
 nav {
   background: #333;
   overflow: hidden;
+  margin: 0;
 }
 
 nav > .logo,
 nav > a {
   float: left;
-  margin: 6px;
+  margin: 0px 6px;
   padding: 14px 16px;
-  color: black;
+  color: #efe;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 19px;
   font-weith: bolder;
 }
 
 nav > a:hover {
-  background: #140ecfe;
+  background: #605d5d;
   color: #fff;
   font-size: 22px;
 }
 
 .form {
   float: right;
-  margin: 17px 20px;
+  margin: 10px 20px;
 }
 
 .form input[name="search"] {
@@ -81,5 +82,5 @@ nav > a:hover {
 }
 
 .active{
-  background: #155fd6;
+  background: #359dd6;
 }
