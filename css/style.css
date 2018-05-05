@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+header h1,
+header h2 {
+  max-width: 480px;
+  margin: auto;
+  text-align: center;
+}
+
+nav {
+  background: #333;
+  overflow: hidden;
+}
+
+nav > .logo,
+nav > a {
+  float: left;
+  margin: 6px;
+  padding: 14px 16px;
+  color: black;
+  text-decoration: none;
+  font-size: 17px;
+  font-weith: bolder;
+}
+
+nav > a:hover {
+  background: #140ecfe;
+  color: #fff;
+  font-size: 22px;
+}
+
+.form {
+  float: right;
+  margin: 17px 20px;
+}
+
+.form input[name="search"] {
+  padding: 6px 20px;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.container {
+  max-width: 1080px;
+  margin: auto;
+  overflow: hidden;
+  padding: 14px 16px;
+  
+  
+}
+.box {
+  margin: 6px;
+  padding: 14px 16px;
+  border: 1px black solid;
+  float: left;
+  text-align: center;
+  border-radius: 50px;
+}
+
+.logo1 img{
+  width: 180px;
+}
+
+.name{
+  font-size: 17px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 14px 16px;
+}
+
+.description{
+  font-size: 17px;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+.active{
+  background: #155fd6;
+}
